@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Contact List API Suite">
+    <test name="API Tests">
+        <classes>
+            <class name="com.telecom.api.tests.UserTests" />
+            <class name="com.telecom.api.tests.ContactTests" />
+        </classes>
+    </test>
+</suite>
